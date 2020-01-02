@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-image: url(src/assets/image/about.png);
+    text-align: center;
+    padding: 170px;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    background-size: cover;
+    background-position: center center;
+    padding: 220px 0 194px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.head::before {
+    position: absolute;
+    content: "";
+    background-color: #001D38;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+.head h3{
+    font-size: 50px;
+}
+section{
+    padding: 40px;
+}
+section h3{
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    color: rgb(17, 17, 17);
+    padding-bottom: 30px;
+}
+.sprayed_area{
+       
+    padding-top: 100px;
+    background-image: url(src/assets/image/9.png);
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 40px;
+}
+.sprayed_area p,h3 {
+    color: white;
+}
+.sprayed_area h3 {
+    color: white !important;
+}
+.overlay::before {
+    position: absolute;
+    content: "";
+    background-color: #001D38;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+.overlay {
+    position: relative;
+    z-index: 0;
+}

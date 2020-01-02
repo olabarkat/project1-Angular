@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}.divfooter{
+    background: #001D38;
+   
+    
+    
+}
+footer{
+    margin-top: 80px;
+}
+.div1{
+   margin-top: 140px;
+   margin-left: 90px;
+}
+.div1 p{
+    color: #919191;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.socail_links
+{
+    display: flex;
+    margin-top: 47px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.div2{
+    margin-top: 100px;
+}
+ h3{
+    color: white;
+  
+}
+.div2 ul{
+    list-style-type:none ;
+    color: #919191;
+    padding: 30px;
+}
+.div2 li{
+    padding: 10px;
+}
+.newsletter_form {
+    position: relative;
+    margin-bottom: 20px;
+}
+    button{
+        background: #F91842;
+        color: white;
+        margin-top: 3px;padding: 6px;
+
+    }
+    input{
+        padding-bottom: 9px;
+        
+    }
+    .footerpar{
+        text-align: center;
+        color: #919191;
+        font-size: 15px;
+       
+    }
+    span{
+        color: #F91842;
+        
+    }
+    .div3{
+        padding: 30px;
+    }
+    .inp{
+        background: #001D38;
+    }
+    .span0{
+        color:whitesmoke;
+        background: #F91842;
+    }

@@ -1,0 +1,13 @@
+nav{
+    position: sticky;
+}
+.bgnav{
+    background: #001D38;
+    top: 0;
+ 
+  
+}
+.btnsignin{
+    background: #F91842;
+    color: white
+}
